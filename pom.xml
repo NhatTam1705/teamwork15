@@ -62,7 +62,7 @@
                         </goals>
                         <configuration>
                             <artifactItem>
-                            <!--<outputDirectory>${endorsed.dir}</outputDirectory>
+                            <outputDirectory>${endorsed.dir}</outputDirectory>
                             <silent>true</silent>
                             <artifactItems>
                                 <artifactItem>
@@ -71,13 +71,15 @@
                                     <version>7.0</version>
                                     <type>jar</type>
                                 </artifactItem>
-                            </artifactItems>-->
+                            </artifactItems>
+                            <!--
                             <artifactItem>
                                 <groupId>com.github.jsimone</groupId>
                                 <artifactId>webapp-runner</artifactId>
                                 <version>8.0.30.2</version>
                                 <destFileName>webapp-runner.jar</destFileName>
                             </artifactItem>
+                        -->
                             </artifactItem>
                         </configuration>
                     </execution>
